@@ -23,8 +23,8 @@ deploy:
 properties:
    DB_SERVER: postgres13-master-13-x
    DB_PORT: 5432
-   DB_USERNAME: username
-   DB_NAME: dbname
+   DB_USERNAME: dotnet
+   DB_NAME: dotnet
    DB_PASSWORD:
       vault: POSTGRESQL_DOTNET_PASSWORD
    ASPNETCORE_ENVIRONMENT: Development
